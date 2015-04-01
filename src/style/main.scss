@@ -1,0 +1,22 @@
+/*
+* Third Party
+*/
+@import "../../bower_components/normalize.css/normalize.css";
+
+
+/*
+* Custom
+*/
+@import "partials/mixins";
+@import "partials/variable";
+
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-size: 20px;
+    font-family: $mainfont;
+    -webkit-font-smoothing: antialiased;
+}
