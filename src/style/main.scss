@@ -5,6 +5,14 @@
 
 
 /*
+* Bootstrap parts
+*/
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_mixins";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_grid";
+
+
+/*
 * Custom
 */
 @import "partials/mixins";
@@ -15,8 +23,17 @@
     box-sizing: border-box;
 }
 
+ul {
+	list-style: none;
+	padding: 0;
+}
+
 html, body {
     font-size: 20px;
     font-family: $mainfont;
     -webkit-font-smoothing: antialiased;
 }
+
+/*
+*	Header
+*/
