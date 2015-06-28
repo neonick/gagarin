@@ -10,4 +10,4 @@
 
 ## License
 
-The MIT License, see the included [license.md](license.md) file.
+The MIT License, see the included [License.md](License.md) file.
