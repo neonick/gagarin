@@ -1,4 +1,4 @@
-# Gagarin [![built with gulp](https://lh3.googleusercontent.com/okKbd9IJmG6keSaeIY0_-egsHNt5rhip0XDfZzGickCFYYsW4WmiFqKxha1H2B8_CGdT7A=w1256-h813)](http://gulpjs.com)
+# Gagarin [![built with gulp](gulp-badge.png)](http://gulpjs.com)
 
 <img width="200" height="200" src="https://raw.githubusercontent.com/neonick/gagarin/master/src/img/logo.png" title="Gagarin frontend template">
 
