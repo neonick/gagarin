@@ -9,7 +9,7 @@
  */
 
 
-$(document).ready(function() {
+$(document).ready(function () {
 
 
     // initialize Google map
@@ -28,7 +28,7 @@ $(document).ready(function() {
             scrollwheel: false,
             rotateControl: true
         };
-
+        
         var map = new google.maps.Map(document.getElementById("map"), mapOptions);
         map.setTilt(45);
 
@@ -40,6 +40,4 @@ $(document).ready(function() {
         });
     }
     google.maps.event.addDomListener(window, 'load', initialize);
-
-
 })
