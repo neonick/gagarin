@@ -7,3 +7,7 @@
 - SASS → [PostCSS](https://github.com/postcss/postcss "PostCSS")
 - base64-sprites
 - [gulp-uncss](https://github.com/ben-eb/gulp-uncss "gulp-uncss") 
+
+## License
+
+The MIT License, see the included [license.md](license.md) file.
