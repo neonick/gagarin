@@ -1,33 +1,34 @@
 {
   "name": "Gagarin",
-
-  "version": "0.1.1",
-
+  "version": "0.2.0",
   "description": "Frontend template",
-
-  "keywords": ["frontend", "template", "css", "scss", "gulp", "bootstrap"],
-
+  "keywords": [
+    "frontend",
+    "template",
+    "css",
+    "scss",
+    "jade",
+    "gulp",
+    "bootstrap grid"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/neonick/gagarin"
   },
-
   "author": "Nick Marchenko (n30n1ck@gmail.com)",
-
   "license": "MIT",
-  
   "dependencies": {
     "gulp-autoprefixer": "^2.1.0",
     "imagemin-pngquant": "^4.0.0",
-    "gulp-sourcemaps":   "^1.5.0",
-    "gulp-minify-css":   "^1.0.0",
-    "gulp-imagemin":     "^2.2.1",
-    "browser-sync":      "^2.2.3",
-    "gulp-rigger":       "^0.5.8",
-    "gulp-uglify":       "^1.1.0",
-    "gulp-watch":        "^4.1.1",
-    "gulp-sass":         "^1.3.3",
-    "rimraf":            "^2.3.1",
-    "gulp":              "^3.8.11"
+    "gulp-sourcemaps": "^1.5.0",
+    "gulp-minify-css": "^1.0.0",
+    "gulp-imagemin": "^2.2.1",
+    "browser-sync": "^2.2.3",
+    "gulp-uglify": "^1.1.0",
+    "gulp-watch": "^4.1.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-sass": "^1.3.3",
+    "rimraf": "^2.3.1",
+    "gulp": "^3.8.11"
   }
 }

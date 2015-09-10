@@ -1,0 +1,25 @@
+doctype html
+html(lang='en')
+    head
+        include parts/_header.jade
+
+    body
+
+        // header
+        section.header
+          .container
+              img(src="img/logo.png", width="300", height="300")
+              h1 Поехали!
+
+
+        // footer
+        section.footer
+          .container
+              .row
+                  .col-md-6
+                      p.copyrights © 2015 
+                          a(href="http://neonick.ru/", target="_blank") neonick
+                          |.
+                  .col-md-6
+
+        include parts/_scripts.jade
