@@ -1,13 +1,6 @@
 /*
- Third party
- */
-//= ../../bower_components/jquery/dist/jquery.min.js
-
-
-/*
     Custom
  */
-
 
 $(document).ready(function () {
 
@@ -16,7 +9,7 @@ $(document).ready(function () {
     function initialize() {
         var pos = new google.maps.LatLng(45.049200, 38.956139);
         var centr = new google.maps.LatLng(45.049434, 38.956139);
-        
+
 
         var mapOptions = {
             center: centr,
@@ -28,7 +21,7 @@ $(document).ready(function () {
             scrollwheel: false,
             rotateControl: true
         };
-        
+
         var map = new google.maps.Map(document.getElementById("map"), mapOptions);
         map.setTilt(45);
 

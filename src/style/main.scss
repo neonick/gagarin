@@ -45,10 +45,9 @@ html, body {
 *	Header
 */
 .header {
-	background-color: #777;
-
+    text-align: center;
 	overflow: hidden;
-  	position: relative; 
+  	position: relative;
 
 	&:before {
 		content: ' ';
@@ -57,7 +56,6 @@ html, body {
 		height: 100%;
 		top: 0;
 		left: 0;
-		background-color: #777;
 		background: url('../img/') no-repeat center center;
 		background-size: cover;
 		will-change: transform; /* important line! */
@@ -65,10 +63,18 @@ html, body {
 	}
 }
 
+/*
+*	map
+*/
+#map {
+	width: 100%;
+    height: 400px;
+}
+
 
 /*
 *	Footer
 */
 .footer {
-	background-color: #999;
+	background-color: #DDD;
 }
