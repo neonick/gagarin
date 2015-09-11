@@ -3,7 +3,6 @@
 <img width="200" height="200" src="https://raw.githubusercontent.com/neonick/gagarin/master/src/img/logo.png" title="Gagarin frontend template">
 
 Frontend template for a quick start based on SCSS, Jade and Gulp.
-I recommended for use with [Nettuts+ Fetch](http://code.tutsplus.com/articles/introducing-nettuts-fetch--net-23490).
 
 ## Installation
 
@@ -17,7 +16,7 @@ gulp
 
 - SASS → [PostCSS](https://github.com/postcss/postcss "PostCSS")
 
-### Possible additions and improvements
+#### Possible additions and improvements
 
 - [gulp-useref](https://github.com/jonkemp/gulp-useref)
 - [gulp-uncss](https://github.com/ben-eb/gulp-uncss)
