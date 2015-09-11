@@ -1,3 +1,7 @@
+### 2015-11-09 v0.2.1
+
+* Different small patches
+
 ### 2015-11-09 v0.2.0
 
 * Gulp Rigger → Jade
