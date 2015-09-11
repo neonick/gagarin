@@ -46,6 +46,7 @@ var config = {
     tunnel: true,
     host: 'localhost',
     port: 9000,
+    logLevel: "silent",
     logPrefix: "Gagarin"
 };
 
