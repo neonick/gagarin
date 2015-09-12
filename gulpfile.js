@@ -19,21 +19,21 @@ var path = {
         html: 'build/',
         js: 'build/js/',
         css: 'build/css/',
-        img: 'build/img/',
+        img: 'build/i/',
         fonts: 'build/fonts/'
     },
     src: {
         jade: 'src/jade/*.jade',
         js: 'src/js/main.js',
         style: 'src/style/main.scss',
-        img: 'src/img/**/*.*',
+        img: 'src/i/**/*.*',
         fonts: 'src/fonts/**/*.*'
     },
     watch: {
         jade: 'src/jade/*.jade',
         js: 'src/js/**/*.js',
         style: 'src/style/**/*.scss',
-        img: 'src/img/**/*.*',
+        img: 'src/i/**/*.*',
         fonts: 'src/fonts/**/*.*'
     },
     clean: './build'
