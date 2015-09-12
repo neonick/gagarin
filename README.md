@@ -1,6 +1,6 @@
 # Gagarin [![built with gulp](gulp-badge.png)](http://gulpjs.com)
 
-<img width="200" height="200" src="https://raw.githubusercontent.com/neonick/gagarin/master/src/img/logo.png" title="Gagarin frontend template">
+<img width="200" height="200" src="https://raw.githubusercontent.com/neonick/gagarin/master/src/i/logo.png" title="Gagarin frontend template">
 
 Frontend template for a quick start based on SCSS, Jade and Gulp.
 
