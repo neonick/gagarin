@@ -12,6 +12,8 @@ var gulp = require('gulp'),
     rimraf = require('rimraf'),
     browserSync = require("browser-sync"),
     rigger = require("gulp-rigger"),
+    gutil = require('gulp-util'),
+    pkg = require('./package.json'),
     reload = browserSync.reload;
 
 var path = {
@@ -56,6 +58,14 @@ gulp.task('webserver', function () {
 
 gulp.task('clean', function (cb) {
     rimraf(path.clean, cb);
+});
+
+gulp.task('hello', function () {
+  gutil.beep();
+  gutil.log(gutil.colors.white.bgGreen(" ┌─┐┌─┐┌─┐┌─┐┬─┐┬┌┐┌ "));
+  gutil.log(gutil.colors.white.bgGreen(" │ ┬├─┤│ ┬├─┤├┬┘││││ "));
+  gutil.log(gutil.colors.white.bgGreen(" └─┘┴ ┴└─┘┴ ┴┴└─┴┘└┘ "));
+  gutil.log(gutil.colors.white.bgGreen('Welcome to Gagarin v.' + pkg.version + '. Poyekhali!'));
 });
 
 gulp.task('jade:build', function () {
@@ -106,6 +116,7 @@ gulp.task('fonts:build', function() {
 });
 
 gulp.task('build', [
+    'hello',
     'jade:build',
     'js:build',
     'style:build',
