@@ -5,13 +5,13 @@ var gulp = require('gulp'),
     prefixer = require('gulp-autoprefixer'),
     uglify = require('gulp-uglify'),
     sass = require('gulp-sass'),
-    sourcemaps = require('gulp-sourcemaps'),
     jade = require('gulp-jade'),
     cssmin = require('gulp-minify-css'),
     imagemin = require('gulp-imagemin'),
     pngquant = require('imagemin-pngquant'),
     rimraf = require('rimraf'),
     browserSync = require("browser-sync"),
+    rigger = require("gulp-rigger"),
     reload = browserSync.reload;
 
 var path = {
@@ -59,7 +59,7 @@ gulp.task('clean', function (cb) {
 });
 
 gulp.task('jade:build', function () {
-    gulp.src(path.src.jade) 
+    gulp.src(path.src.jade)
         .pipe(jade({pretty: true}))
         .pipe(gulp.dest(path.build.html))
         .pipe(reload({stream: true}));
@@ -67,25 +67,23 @@ gulp.task('jade:build', function () {
 
 gulp.task('js:build', function () {
     gulp.src(path.src.js)
-        .pipe(sourcemaps.init())
+        .pipe(rigger())
         .pipe(uglify())
-        .pipe(sourcemaps.write())
         .pipe(gulp.dest(path.build.js))
         .pipe(reload({stream: true}));
 });
 
 gulp.task('style:build', function () {
     gulp.src(path.src.style)
-        .pipe(sourcemaps.init())
+        .pipe(rigger())
         .pipe(sass({
             includePaths: ['src/style/'],
             outputStyle: 'compressed',
-            sourceMap: true,
+            sourceMap: false,
             errLogToConsole: true
         }))
         .pipe(prefixer())
         .pipe(cssmin())
-        .pipe(sourcemaps.write())
         .pipe(gulp.dest(path.build.css))
         .pipe(reload({stream: true}));
 });

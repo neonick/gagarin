@@ -2,7 +2,7 @@
 * Third Party
 */
 @import "../../bower_components/normalize.css/normalize.css";
-
+@import "../../bower_components/magnific-popup/dist/magnific-popup.css";
 
 /*
 * Bootstrap parts
@@ -10,7 +10,6 @@
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_mixins";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_grid";
-
 
 /*
 * Custom
@@ -20,8 +19,8 @@
 
 
 * {
-    box-sizing: border-box;
-    vertical-align: top;
+  box-sizing: border-box;
+  vertical-align: top;
 }
 
 ul {
@@ -30,26 +29,31 @@ ul {
 	margin: 0;
 }
 
+p {
+  margin: 0;
+}
+
 a {
 	text-decoration: none;
+
 	&:hover {
 		text-decoration: none;
 	}
 }
 
 html, body {
-    font-size: 14px;
-    font-family: $mainfont;
-    -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-family: $mainfont;
+  -webkit-font-smoothing: antialiased;
 }
 
 /*
 *	Header
 */
 .header {
-    text-align: center;
-	overflow: hidden;
-  	position: relative;
+  text-align: center;
+  overflow: hidden;
+	position: relative;
 
 	&:before {
 		content: ' ';
@@ -58,7 +62,7 @@ html, body {
 		height: 100%;
 		top: 0;
 		left: 0;
-		background: url('../img/') no-repeat center center;
+		background: url('../i/') no-repeat center center;
 		background-size: cover;
 		will-change: transform; /* important line! */
 		z-index: -1;
@@ -66,11 +70,12 @@ html, body {
 }
 
 /*
-*	map
+*	Map
 */
 #map {
 	width: 100%;
-    height: 400px;
+  height: 400px;
+  margin-bottom: 40px;
 }
 
 
@@ -79,4 +84,6 @@ html, body {
 */
 .footer {
 	background-color: #DDD;
+  height: 60px;
+  padding-top: 20px;
 }

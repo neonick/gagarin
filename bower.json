@@ -1,6 +1,6 @@
 {
   "name": "Gagarin",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "homepage": "https://github.com/neonick/gagarin",
   "authors": [
     "Nick Marchenko <n30n1ck@gmail.com>"
@@ -11,9 +11,8 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "normalize.css": "*"
-  },
-  "devDependencies": {
+    "magnific-popup": "~1.0.0",
+    "normalize.css": "*",
     "bootstrap-sass": "~3.3.5"
   }
 }
