@@ -22,14 +22,14 @@ gulp
 
 ## Next releases
 
-- SASS → [PostCSS](https://github.com/postcss/postcss "PostCSS")
+- SASS → [PostCSS](https://github.com/postcss/postcss "PostCSS") (precss)
 - Yeoman
 
 #### Possible additions and improvements
 
+- [gulp-svg-sprite](https://github.com/jkphl/gulp-svg-sprite) or [gulp-svgstore](https://github.com/w0rm/gulp-svgstore)
 - [gulp-useref](https://github.com/jonkemp/gulp-useref)
 - [gulp-uncss](https://github.com/ben-eb/gulp-uncss)
-- [gulp-header](https://github.com/tracker1/gulp-header) or [gulp-util](https://github.com/gulpjs/gulp-util)
 - [gulp-notify](https://github.com/mikaelbr/gulp-notify)
 
 ## Release History
