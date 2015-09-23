@@ -18,18 +18,18 @@
   "author": "Nick Marchenko (n30n1ck@gmail.com)",
   "license": "MIT",
   "dependencies": {
-    "browser-sync": "^2.2.3",
-    "gulp": "^3.8.11",
+    "browser-sync": "^2.9.6",
+    "gulp": "^3.9.0",
     "gulp-autoprefixer": "^2.1.0",
-    "gulp-imagemin": "^2.2.1",
+    "gulp-imagemin": "^2.3.0",
     "gulp-jade": "^1.1.0",
-    "gulp-minify-css": "^1.0.0",
+    "gulp-minify-css": "^1.2.1",
     "gulp-rigger": "^0.5.8",
-    "gulp-sass": "^1.3.3",
-    "gulp-uglify": "^1.1.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-uglify": "^1.4.1",
     "gulp-util": "^3.0.6",
-    "gulp-watch": "^4.1.1",
-    "imagemin-pngquant": "^4.0.0",
+    "gulp-watch": "^4.3.5",
+    "imagemin-pngquant": "^4.2.0",
     "rimraf": "^2.3.1"
   }
 }

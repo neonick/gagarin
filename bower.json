@@ -11,8 +11,8 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "bootstrap-sass": "~3.3.5",
     "magnific-popup": "~1.0.0",
-    "normalize.css": "*",
-    "bootstrap-sass": "~3.3.5"
+    "normalize-css": "normalize.css#~3.0.3"
   }
 }
