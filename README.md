@@ -1,8 +1,10 @@
-# Gagarin [![built with gulp](gulp-badge.png)](http://gulpjs.com)
+# Gagarin 
+
+[![built with gulp](gulp-badge.png)](http://gulpjs.com)
 
 <img width="250" height="250" src="https://raw.githubusercontent.com/neonick/gagarin/master/src/i/logo.png" title="Gagarin frontend template">
 
-Gagarin is frontend template based on SASS, Jade and Gulp with Bootstrap grid system. **Poyekhali!**
+Gagarin is frontend template based on PostCSS, Jade and Gulp with Bootstrap grid system. **Poyekhali!**
 
 #### Oh, yes, I wrote my own frontend framework
 
@@ -22,8 +24,9 @@ gulp
 
 ## Next releases
 
-- SASS → [PostCSS](https://github.com/postcss/postcss "PostCSS") (precss)
-- Yeoman
+- Make right work with images
+- Test new postcss linters and minificators
+- Explore more useful postcss and gulp plugins
 
 #### Possible additions and improvements
 

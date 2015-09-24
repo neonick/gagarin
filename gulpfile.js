@@ -2,9 +2,7 @@
 
 var gulp = require('gulp'),
     watch = require('gulp-watch'),
-    prefixer = require('gulp-autoprefixer'),
     uglify = require('gulp-uglify'),
-    sass = require('gulp-sass'),
     jade = require('gulp-jade'),
     cssmin = require('gulp-minify-css'),
     imagemin = require('gulp-imagemin'),
@@ -13,6 +11,11 @@ var gulp = require('gulp'),
     browserSync = require("browser-sync"),
     rigger = require("gulp-rigger"),
     gutil = require('gulp-util'),
+
+    // postcss and plugins
+    postcss = require('gulp-postcss'),
+    autoprefixer = require('autoprefixer'),
+    precss = require('precss'),
     pkg = require('./package.json'),
     reload = browserSync.reload;
 
@@ -32,9 +35,9 @@ var path = {
         fonts: 'src/fonts/**/*.*'
     },
     watch: {
-        jade: 'src/jade/*.jade',
+        jade: 'src/jade/**/*.jade',
         js: 'src/js/**/*.js',
-        style: 'src/style/**/*.scss',
+        style: 'src/style/**/*.css',
         img: 'src/i/**/*.*',
         fonts: 'src/fonts/**/*.*'
     },
@@ -86,13 +89,12 @@ gulp.task('js:build', function () {
 gulp.task('style:build', function () {
     gulp.src(path.src.style)
         .pipe(rigger())
-        .pipe(sass({
-            includePaths: ['src/style/'],
-            outputStyle: 'compressed',
-            sourceMap: false,
-            errLogToConsole: true
-        }))
-        .pipe(prefixer())
+
+        .pipe( postcss([
+            precss,
+            autoprefixer({ browsers: ['last 2 versions'] })
+        ]))
+        
         .pipe(cssmin())
         .pipe(gulp.dest(path.build.css))
         .pipe(reload({stream: true}));

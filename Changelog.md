@@ -1,3 +1,9 @@
+### 2015-24-09 v0.3.0
+
+* SASS → PostCSS
+* gulp-autoprefixer → autoprefixer
+* Fix watcher for jade
+
 ### 2015-21-09 v0.2.2
 
 * Remove sourceMap
