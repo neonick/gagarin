@@ -2,9 +2,7 @@
 
 <img width="100" height="100" src="https://raw.githubusercontent.com/neonick/gagarin/master/src/i/logo.png" title="Gagarin frontend template" align="right">
 
-Gagarin is frontend template based on PostCSS, Jade and Gulp with Bootstrap grid system. 
-
-**Poyekhali!**
+Gagarin is frontend template based on PostCSS, Jade and Gulp. **Poyekhali!**
 
 #### Oh, yes, I wrote my own frontend framework
 
@@ -24,7 +22,9 @@ gulp
 
 ## Next releases
 
+- Do some CSS architecture
 - Make right work with images
+- Organize gulp-tasks for deploy
 - Test new postcss linters and minificators
 - Explore more useful postcss and gulp plugins
 

@@ -1,3 +1,11 @@
+### 2015-28-09 v0.3.1
+
+* Remove [bootstrap-sass](https://github.com/twbs/bootstrap-sass)
+* Add [postcss-font-magician](https://github.com/jonathantneal/postcss-font-magician), [postcss-focus](https://github.com/postcss/postcss-focus), [postcss-custom-media](https://github.com/postcss/postcss-custom-media)
+* Add Google map icon
+* Google maps init function made in separate file
+
+
 ### 2015-24-09 v0.3.0
 
 * SASS → PostCSS

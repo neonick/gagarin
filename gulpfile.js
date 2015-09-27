@@ -16,6 +16,9 @@ var gulp = require('gulp'),
     postcss = require('gulp-postcss'),
     autoprefixer = require('autoprefixer'),
     precss = require('precss'),
+    postcssfocus = require('postcss-focus'),
+    fontmagician = require('postcss-font-magician'),
+    customMedia = require("postcss-custom-media"),
     pkg = require('./package.json'),
     reload = browserSync.reload;
 
@@ -30,7 +33,7 @@ var path = {
     src: {
         jade: 'src/jade/*.jade',
         js: 'src/js/main.js',
-        style: 'src/style/main.scss',
+        style: 'src/style/main.css',
         img: 'src/i/**/*.*',
         fonts: 'src/fonts/**/*.*'
     },
@@ -92,6 +95,9 @@ gulp.task('style:build', function () {
 
         .pipe( postcss([
             precss,
+            fontmagician,
+            postcssfocus,
+            customMedia,
             autoprefixer({ browsers: ['last 2 versions'] })
         ]))
         
