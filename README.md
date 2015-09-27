@@ -2,7 +2,9 @@
 
 <img width="100" height="100" src="https://raw.githubusercontent.com/neonick/gagarin/master/src/i/logo.png" title="Gagarin frontend template" align="right">
 
-Gagarin is frontend template based on PostCSS, Jade and Gulp. **Poyekhali!**
+Gagarin is frontend template based on PostCSS, Jade and Gulp. 
+
+**Poyekhali!**
 
 #### Oh, yes, I wrote my own frontend framework
 
