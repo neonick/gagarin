@@ -91,6 +91,38 @@ h1 {
 	}
 }
 
+.grid_test {
+	margin-bottom: 40px;
+}
+
+.grid_test .container {
+	lost-center: 300px;
+	lost-utility: clearfix;
+	lost-utility: edit;
+
+	@media (--w480) {
+	  lost-center: 480px;
+	}
+
+	@media (--w768) {
+	  lost-center: 700px;
+	}
+
+	div {
+		lost-waffle: 1/2;
+
+		@media (--w768) {
+		  lost-column: 1/4;
+		}
+
+		@media (--w980) {
+		  lost-column: 1/6;
+		}
+	}
+}
+
+
+
 /*
 *	Map
 */

@@ -2,7 +2,7 @@
 
 <img width="100" height="100" src="https://raw.githubusercontent.com/neonick/gagarin/master/src/i/logo.png" title="Gagarin frontend template" align="right">
 
-Gagarin is frontend template based on PostCSS, Jade and Gulp. 
+Gagarin is frontend template based on PostCSS (with some magic plugins), Jade and Gulp. I use [Lost Grid System](https://github.com/corysimmons/lost) for easy handling with grids.
 
 **Poyekhali!**
 
@@ -25,7 +25,6 @@ gulp
 ## Next releases
 
 - Do some CSS good architecture :(
-- Add [Lost Grid System](https://github.com/corysimmons/lost)
 - Make right work with images
 - Optimize gulp-tasks. Split dev and production tasks
 - Explore more useful postcss and gulp plugins

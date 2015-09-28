@@ -1,3 +1,8 @@
+### 2015-28-09 v0.3.2
+
+* Add [Lost Grid System](https://github.com/corysimmons/lost)
+* Update precss version
+
 ### 2015-28-09 v0.3.1
 
 * Remove [bootstrap-sass](https://github.com/twbs/bootstrap-sass)

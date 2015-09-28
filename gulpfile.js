@@ -14,8 +14,9 @@ var gulp = require('gulp'),
 
     // postcss and plugins
     postcss = require('gulp-postcss'),
-    autoprefixer = require('autoprefixer'),
     precss = require('precss'),
+    lost = require('lost'),
+    autoprefixer = require('autoprefixer'),
     postcssfocus = require('postcss-focus'),
     fontmagician = require('postcss-font-magician'),
     customMedia = require("postcss-custom-media"),
@@ -95,6 +96,7 @@ gulp.task('style:build', function () {
 
         .pipe( postcss([
             precss,
+            lost,
             fontmagician,
             postcssfocus,
             customMedia,
