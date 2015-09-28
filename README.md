@@ -24,14 +24,17 @@ gulp
 
 ## Next releases
 
-- Do some CSS architecture
+- Do some CSS good architecture :(
+- Add [Lost Grid System](https://github.com/corysimmons/lost)
 - Make right work with images
-- Organize gulp-tasks for deploy
-- Test new postcss linters and minificators
+- Optimize gulp-tasks. Split dev and production tasks
 - Explore more useful postcss and gulp plugins
 
 #### Possible additions and improvements
 
+- Do experiments with [cssstats](https://github.com/cssstats/postcss-cssstats)
+- Do experiments with [stylelint](https://github.com/stylelint/stylelint)
+- Do experiments with [cssnano](https://github.com/ben-eb/cssnano)
 - [gulp-svg-sprite](https://github.com/jkphl/gulp-svg-sprite) or [gulp-svgstore](https://github.com/w0rm/gulp-svgstore)
 - [gulp-useref](https://github.com/jonkemp/gulp-useref)
 - [gulp-uncss](https://github.com/ben-eb/gulp-uncss)
