@@ -19,7 +19,6 @@ var gulp = require('gulp'),
     autoprefixer = require('autoprefixer'),
     postcssfocus = require('postcss-focus'),
     fontmagician = require('postcss-font-magician'),
-    customMedia = require("postcss-custom-media"),
     pkg = require('./package.json'),
     reload = browserSync.reload;
 
@@ -99,7 +98,6 @@ gulp.task('style:build', function () {
             lost,
             fontmagician,
             postcssfocus,
-            customMedia,
             autoprefixer({ browsers: ['last 2 versions'] })
         ]))
         
