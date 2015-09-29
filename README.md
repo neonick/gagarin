@@ -1,4 +1,4 @@
-# Gagarin [![built with gulp](gulp-badge.png)](http://gulpjs.com) [![Build Status](https://travis-ci.org/neonick/gagarin.svg)](https://travis-ci.org/neonick/gagarin)
+# Gagarin [![built with gulp](gulp-badge.png)](http://gulpjs.com) [![Build Status](https://travis-ci.org/neonick/gagarin.svg)](https://travis-ci.org/neonick/gagarin) [![Dependency Status](https://gemnasium.com/neonick/gagarin.svg)](https://gemnasium.com/neonick/gagarin)
 
 <img width="100" height="100" src="https://raw.githubusercontent.com/neonick/gagarin/master/src/i/logo.png" title="Gagarin frontend template" align="right">
 
