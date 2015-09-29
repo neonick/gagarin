@@ -12,6 +12,6 @@
   "license": "MIT",
   "dependencies": {
     "magnific-popup": "~1.0.0",
-    "normalize-css": "normalize.css#~3.0.3"
+    "normalize-css": "~3.0.3"
   }
 }
