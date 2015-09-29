@@ -17,9 +17,7 @@ I want to understand the most advanced frontend technology, because it seems to 
 ## Installation
 
 ```
-npm install
-bower install
-gulp
+npm install && bower install && gulp
 ```
 
 ## Next releases
