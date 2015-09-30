@@ -16,6 +16,7 @@ var gulp = require('gulp'),
     postcss = require('gulp-postcss'),
     precss = require('precss'),
     lost = require('lost'),
+    cssnano = require('gulp-cssnano'),
     autoprefixer = require('autoprefixer'),
     postcssfocus = require('postcss-focus'),
     fontmagician = require('postcss-font-magician'),
@@ -55,6 +56,7 @@ var config = {
     host: 'localhost',
     port: 9000,
     logLevel: "silent",
+    // logLevel: "info",
     logPrefix: "Gagarin"
 };
 
@@ -100,8 +102,16 @@ gulp.task('style:build', function () {
             postcssfocus,
             autoprefixer({ browsers: ['last 2 versions'] })
         ]))
-        
-        .pipe(cssmin())
+
+        .pipe(cssnano({
+          convertValues: {
+            length: false
+          },
+          discardComments: {
+            removeAll: true
+          }
+        }))
+
         .pipe(gulp.dest(path.build.css))
         .pipe(reload({stream: true}));
 });
