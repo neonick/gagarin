@@ -4,20 +4,12 @@
 @import "../../bower_components/normalize-css/normalize.css";
 @import "../../bower_components/magnific-popup/dist/magnific-popup.css";
 
-/*
-* Custom media
-*/
-@custom-media --w480 (min-width: 480px);
-@custom-media --w768 (min-width: 768px);
-@custom-media --w980 (min-width: 992px);
-@custom-media --w1200 (min-width: 1200px);
-
 
 /*
 * Variables
 */
 @import "partials/variable";
-
+@import "partials/grid";
 
 * {
   box-sizing: border-box;
@@ -64,10 +56,7 @@ h1 {
 	}
 }
 
-.container {
-	width: 980px;
-	margin: 0 auto;
-}
+
 
 /*
 *	Header

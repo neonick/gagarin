@@ -1,2 +1,16 @@
+/*
+* Custom media
+*/
+@custom-media --w480 (min-width: 480px);
+@custom-media --w768 (min-width: 768px);
+@custom-media --w980 (min-width: 992px);
+@custom-media --w1200 (min-width: 1200px);
+@custom-media --w1400 (min-width: 1400px);
+@custom-media --w1600 (min-width: 1600px);
+
+
+/*
+* Variables
+*/
 $maincolor: #000;
 $mainfont: "PT Sans", Arial, sans-serif;
