@@ -29,7 +29,6 @@ npm install && bower install && gulp
 
 #### Possible additions and improvements
 
-- Do experiments with [cssstats](https://github.com/cssstats/postcss-cssstats)
 - [gulp-svg-sprite](https://github.com/jkphl/gulp-svg-sprite) or [gulp-svgstore](https://github.com/w0rm/gulp-svgstore)
 - [gulp-useref](https://github.com/jonkemp/gulp-useref)
 - [gulp-uncss](https://github.com/ben-eb/gulp-uncss)
