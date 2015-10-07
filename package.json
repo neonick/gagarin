@@ -1,6 +1,6 @@
 {
   "name": "Gagarin",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "Frontend template",
   "keywords": [
     "frontend",
@@ -19,12 +19,12 @@
   "license": "MIT",
   "dependencies": {
     "autoprefixer": "^6.0.3",
-    "browser-sync": "^2.9.7",
+    "browser-sync": "^2.9.10",
     "gulp": "^3.9.0",
     "gulp-cssnano": "^2.0.0",
     "gulp-imagemin": "^2.3.0",
     "gulp-jade": "^1.1.0",
-    "gulp-postcss": "^6.0.0",
+    "gulp-postcss": "^6.0.1",
     "gulp-rigger": "^0.5.8",
     "gulp-uglify": "^1.4.1",
     "gulp-util": "^3.0.6",

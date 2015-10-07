@@ -1,3 +1,9 @@
+### 2015-07-10 v0.3.4
+
+* A lot od small changes
+* Add [Swiper](https://github.com/nolimits4web/Swiper)
+* Update packages
+
 ### 2015-30-09 v0.3.3
 
 * [gulp-minify-css](https://github.com/murphydanger/gulp-minify-css) → [gulp-cssnano](https://github.com/ben-eb/gulp-cssnano)
