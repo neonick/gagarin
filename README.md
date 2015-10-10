@@ -2,7 +2,7 @@
 
 <img width="100" height="100" src="https://raw.githubusercontent.com/neonick/gagarin/master/src/i/logo.png" title="Gagarin frontend template" align="right">
 
-Gagarin is frontend template[*](#footnote) based on [PostCSS](https://github.com/postcss/postcss) (with some magic [plugins](#used-postcss-pugins)), Jade and Gulp. I use [Lost Grid System](https://github.com/corysimmons/lost) for easy handling with grids.
+Gagarin is frontend template[*](#footnote) based on [PostCSS](https://github.com/postcss/postcss), Jade and Gulp. I use [Lost Grid System](https://github.com/corysimmons/lost) for easy handling with grids.
 
 **Poyekhali!**
 
@@ -20,12 +20,6 @@ npm install && bower install && gulp
 - [postcss-font-magician](https://github.com/jonathantneal/postcss-font-magician)
 - [postcss-inline-comment](https://github.com/moczolaszlo/postcss-inline-comment)
 - [postcss-focus](https://github.com/postcss/postcss-focus)
-
-precss = require('precss'),
-    lost = require('lost'),
-    cssnano = require('gulp-cssnano'),
-    autoprefixer = require('autoprefixer'),
-
 
 ## Used vendor plugins
 
@@ -56,7 +50,7 @@ The changelog can be found in the [Changelog.md](Changelog.md) file.
 
 The MIT License, see the included [License.md](License.md) file.
 
-#### * Footnote
+#### Footnote
 
 <img width="120" height="120" align="right" src="https://raw.githubusercontent.com/neonick/gagarin/master/src/i/frontend_technologies.gif" title="Modern frontend developer">
 
