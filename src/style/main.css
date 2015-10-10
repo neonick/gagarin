@@ -39,6 +39,7 @@ html, body {
   font-family: $mainfont;
   -webkit-font-smoothing: antialiased;
   background-color: #fff;
+  //color: red;
 }
 
 /*

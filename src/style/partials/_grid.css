@@ -1,7 +1,7 @@
 /*
 * Lost variables
 */
-@lost gutter 60px;
+@lost gutter 30px;
 
 .container {
 	width: 100%;

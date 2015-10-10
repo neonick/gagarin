@@ -1,6 +1,11 @@
+### 2015-10-10 v0.3.5
+
+* Add [postcss-inline-comment](jonathantneal/postcss-font-magician)
+* Small changes in gulpfile.json
+
 ### 2015-07-10 v0.3.4
 
-* A lot od small changes
+* A lot of small changes
 * Add [Swiper](https://github.com/nolimits4web/Swiper)
 * Update packages
 

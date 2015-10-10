@@ -19,6 +19,7 @@ var gulp = require('gulp'),
     autoprefixer = require('autoprefixer'),
     postcssfocus = require('postcss-focus'),
     fontmagician = require('postcss-font-magician'),
+    inlinecomment = require('postcss-inline-comment'),
     pkg = require('./package.json'),
     reload = browserSync.reload;
 
@@ -51,7 +52,7 @@ var config = {
     server: {
         baseDir: "./build"
     },
-    tunnel: true,
+    tunnel: false,
     host: 'localhost',
     port: 9000,
     logLevel: "silent",
@@ -69,10 +70,10 @@ gulp.task('clean', function (cb) {
 
 gulp.task('hello', function () {
   gutil.beep();
-  gutil.log(gutil.colors.white.bgGreen(" ┌─┐┌─┐┌─┐┌─┐┬─┐┬┌┐┌ "));
-  gutil.log(gutil.colors.white.bgGreen(" │ ┬├─┤│ ┬├─┤├┬┘││││ "));
-  gutil.log(gutil.colors.white.bgGreen(" └─┘┴ ┴└─┘┴ ┴┴└─┴┘└┘ "));
-  gutil.log(gutil.colors.white.bgGreen('Welcome to Gagarin v.' + pkg.version + '. Poyekhali!'));
+  gutil.log(gutil.colors.black.bgGreen(" ┌─┐┌─┐┌─┐┌─┐┬─┐┬┌┐┌ "));
+  gutil.log(gutil.colors.black.bgGreen(" │ ┬├─┤│ ┬├─┤├┬┘││││ "));
+  gutil.log(gutil.colors.black.bgGreen(" └─┘┴ ┴└─┘┴ ┴┴└─┴┘└┘ "));
+  gutil.log(gutil.colors.black.bgGreen(' Welcome to Gagarin v.' + pkg.version + ' '));
 });
 
 gulp.task('jade:build', function () {
@@ -98,6 +99,7 @@ gulp.task('style:build', function () {
             precss,
             lost,
             fontmagician,
+            inlinecomment,
             postcssfocus,
             autoprefixer({ browsers: ['last 2 versions'] })
         ]))
@@ -158,6 +160,7 @@ gulp.task('watch', function(){
     watch([path.watch.fonts], function(event, cb) {
         gulp.start('fonts:build');
     });
+    gutil.log(gutil.colors.black.bgGreen(" All systems are working normally. Let's go! "));
 });
 
 

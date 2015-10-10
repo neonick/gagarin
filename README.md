@@ -29,8 +29,8 @@ npm install && bower install && gulp
 
 ## Next releases
 
-- Do some CSS good architecture :(
-- Make right work with images
+- Do some good CSS architecture :(
+- Make right workflow with images
 - Optimize gulp-tasks. Split dev and production tasks
 - Explore more useful postcss and gulp plugins
 
