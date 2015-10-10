@@ -1,6 +1,6 @@
 ### 2015-10-10 v0.3.5
 
-* Add [postcss-inline-comment](jonathantneal/postcss-font-magician)
+* Add [postcss-inline-comment](https://github.com/moczolaszlo/postcss-inline-comment)
 * Small changes in gulpfile.json
 
 ### 2015-07-10 v0.3.4
