@@ -25,7 +25,7 @@ npm install && bower install && gulp
 - [lost](https://github.com/corysimmons/lost)
 - [precss](https://github.com/jonathantneal/precss)
 - [postcss-font-magician](https://github.com/jonathantneal/postcss-font-magician)
-- [postcss-inline-comment](https://github.com/moczolaszlo/postcss-inline-comment)
+- [postcss-scss parser](https://github.com/postcss/postcss-scss)
 - [postcss-focus](https://github.com/postcss/postcss-focus)
 
 ## Next releases
@@ -49,7 +49,6 @@ The changelog can be found in the [Changelog.md](Changelog.md) file.
 ## License
 
 The MIT License, see the included [License.md](License.md) file.
-
 
 ###### Footnote
 
