@@ -22,7 +22,7 @@ ul {
 	margin: 0;
 }
 
-p {
+p, h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
@@ -38,25 +38,8 @@ html, body {
   font-size: 14px;
   font-family: $mainfont;
   -webkit-font-smoothing: antialiased;
+  background-color: #fff;
 }
-
-h1 {
-	color: green;
-
-	@media (--w480) {
-	  color: blue;
-	}
-
-	@media (--w768) {
-	  color: yellow;
-	}
-
-	@media (--w980) {
-	  color: black;
-	}
-}
-
-
 
 /*
 *	Header
@@ -127,6 +110,5 @@ h1 {
 */
 .footer {
 	background-color: #DDD;
-	height: 60px;
-	padding-top: 20px;
+	padding: 20px 0;
 }
