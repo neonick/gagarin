@@ -14,12 +14,12 @@ var gulp = require('gulp'),
     // postcss and plugins
     postcss = require('gulp-postcss'),
     precss = require('precss'),
+    postcssscss = require('postcss-scss'),
     lost = require('lost'),
     cssnano = require('gulp-cssnano'),
     autoprefixer = require('autoprefixer'),
     postcssfocus = require('postcss-focus'),
     fontmagician = require('postcss-font-magician'),
-    inlinecomment = require('postcss-inline-comment'),
     pkg = require('./package.json'),
     reload = browserSync.reload;
 
@@ -99,10 +99,10 @@ gulp.task('style:build', function () {
             precss,
             lost,
             fontmagician,
-            inlinecomment,
             postcssfocus,
             autoprefixer({ browsers: ['last 2 versions'] })
-        ]))
+        ],  {syntax: postcssscss}
+        ))
 
         .pipe(cssnano({
           convertValues: {

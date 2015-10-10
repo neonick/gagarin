@@ -2,7 +2,7 @@
 
 <img width="100" height="100" src="https://raw.githubusercontent.com/neonick/gagarin/master/src/i/logo.png" title="Gagarin frontend template" align="right">
 
-Gagarin is frontend template [*](#footnote) based on [PostCSS](https://github.com/postcss/postcss), Jade and Gulp. 
+Gagarin is frontend template[*](#footnote) based on [PostCSS](https://github.com/postcss/postcss), Jade and Gulp. 
 I use [Lost Grid System](https://github.com/corysimmons/lost) for easy handling with grids and several others vendor plugins.
 
 **Poyekhali!**
@@ -49,6 +49,7 @@ The changelog can be found in the [Changelog.md](Changelog.md) file.
 ## License
 
 The MIT License, see the included [License.md](License.md) file.
+
 
 ###### Footnote
 

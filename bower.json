@@ -1,6 +1,6 @@
 {
   "name": "Gagarin",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "homepage": "https://github.com/neonick/gagarin",
   "authors": [
     "Nick Marchenko <n30n1ck@gmail.com>"
@@ -13,6 +13,6 @@
   "dependencies": {
     "magnific-popup": "~1.0.0",
     "normalize-css": "~3.0.3",
-    "Swiper": "swiper#~3.1.5"
+    "Swiper": "swiper#~3.1.7"
   }
 }
