@@ -2,7 +2,8 @@
 
 <img width="100" height="100" src="https://raw.githubusercontent.com/neonick/gagarin/master/src/i/logo.png" title="Gagarin frontend template" align="right">
 
-Gagarin is frontend template[*](#footnote) based on [PostCSS](https://github.com/postcss/postcss), Jade and Gulp. I use [Lost Grid System](https://github.com/corysimmons/lost) for easy handling with grids.
+Gagarin is frontend template [*](#footnote) based on [PostCSS](https://github.com/postcss/postcss), Jade and Gulp. 
+I use [Lost Grid System](https://github.com/corysimmons/lost) for easy handling with grids and several others vendor plugins.
 
 **Poyekhali!**
 
@@ -12,7 +13,13 @@ Gagarin is frontend template[*](#footnote) based on [PostCSS](https://github.com
 npm install && bower install && gulp
 ```
 
-## Used postcss plugins
+## Used vendor plugins
+
+- [Lost Grid System](https://github.com/corysimmons/lost) for grids
+- [Swiper](https://github.com/nolimits4web/Swiper) for sliders
+- [Magnific Popup](https://github.com/dimsemenov/Magnific-Popup) for popups
+
+### Used postcss plugins
 
 - [autoprefixer](https://github.com/postcss/autoprefixer)
 - [lost](https://github.com/corysimmons/lost)
@@ -21,18 +28,11 @@ npm install && bower install && gulp
 - [postcss-inline-comment](https://github.com/moczolaszlo/postcss-inline-comment)
 - [postcss-focus](https://github.com/postcss/postcss-focus)
 
-## Used vendor plugins
-
-- [Lost Grid System](https://github.com/corysimmons/lost) for grids
-- [Swiper](https://github.com/nolimits4web/Swiper) for sliders
-- [Magnific Popup](https://github.com/dimsemenov/Magnific-Popup) for popups
-
-
 ## Next releases
 
 - Do some good CSS architecture :(
 - Make right workflow with images
-- Optimize gulp-tasks. Split dev and production tasks
+- Optimize and speed up gulp-tasks. Split dev and production tasks
 - Explore more useful postcss and gulp plugins
 
 #### Possible additions and improvements
@@ -50,9 +50,9 @@ The changelog can be found in the [Changelog.md](Changelog.md) file.
 
 The MIT License, see the included [License.md](License.md) file.
 
-#### Footnote
+###### Footnote
 
-<img width="120" height="120" align="right" src="https://raw.githubusercontent.com/neonick/gagarin/master/src/i/frontend_technologies.gif" title="Modern frontend developer">
+<img width="150" height="150" align="right" src="https://raw.githubusercontent.com/neonick/gagarin/master/src/i/frontend_technologies.gif" title="Modern frontend developer">
 
 Oh, yes, I wrote my own frontend framework.
 
