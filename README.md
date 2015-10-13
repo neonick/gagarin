@@ -1,6 +1,6 @@
 # Gagarin [![built with gulp](gulp-badge.png)](http://gulpjs.com) [![Build Status](https://travis-ci.org/neonick/gagarin.svg)](https://travis-ci.org/neonick/gagarin) [![Dependency Status](https://gemnasium.com/neonick/gagarin.svg)](https://gemnasium.com/neonick/gagarin)
 
-<img width="120" height="100" src="https://raw.githubusercontent.com/neonick/gagarin/master/src/i/logo.png" title="Gagarin frontend template" align="right">
+<img width="120" height="120" src="https://raw.githubusercontent.com/neonick/gagarin/master/src/i/logo.png" title="Gagarin frontend template" align="right">
 
 Gagarin is frontend template[*](#footnote) based on [PostCSS](https://github.com/postcss/postcss), Jade and Gulp. 
 I use [Lost Grid System](https://github.com/corysimmons/lost) for easy handling with grids and several others vendor plugins.
