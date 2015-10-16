@@ -33,7 +33,7 @@ npm install && bower install && gulp
 - Do some good CSS architecture :(
 - Make right workflow with images
 - Optimize and speed up gulp-tasks. Split dev and production tasks
-- Explore more useful postcss and gulp plugins
+- Explore more useful postcss and [gulp plugins](https://github.com/Pestov/essential-gulp-plugins)
 
 #### Possible additions and improvements
 

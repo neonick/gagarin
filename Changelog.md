@@ -1,3 +1,8 @@
+### 2015-16-10 v0.3.7
+
+* Add [postcss-easings](https://github.com/postcss/postcss-easings)
+* Update packages
+
 ### 2015-10-10 v0.3.6
 
 * [postcss-inline-comment](https://github.com/moczolaszlo/postcss-inline-comment) → [postcss-scss parser](https://github.com/postcss/postcss-scss)

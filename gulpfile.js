@@ -15,6 +15,7 @@ var gulp = require('gulp'),
     postcss = require('gulp-postcss'),
     precss = require('precss'),
     postcssscss = require('postcss-scss'),
+    easings = require('postcss-easings'),
     lost = require('lost'),
     cssnano = require('gulp-cssnano'),
     autoprefixer = require('autoprefixer'),
@@ -100,6 +101,7 @@ gulp.task('style:build', function () {
             lost,
             fontmagician,
             postcssfocus,
+            easings,
             autoprefixer({ browsers: ['last 2 versions'] })
         ],  {syntax: postcssscss}
         ))
