@@ -1,0 +1,45 @@
+doctype html
+html(lang='ru')
+    head
+        include parts/_meta.jade
+
+    body
+        
+        include parts/_header.jade
+
+        // test_container
+        section.test_container
+            .container
+
+                .test_container__left
+                    img(src="i/logo.png", width="300", height="300")
+                    h1 Poyekhali!
+
+                    
+                
+                .test_container__right
+
+                    h2 Social block
+
+                    include blocks/soc_block.jade
+                    
+                    h2 Google map
+                    #map
+                    
+                    h2 Lost grid test
+                    
+                    .grid_test
+                        div Grid test 1
+                        div Grid test 2
+                        div Grid test 3
+                        div Grid test 4
+                        div Grid test 5
+                        div Grid test 6
+                        div Grid test 7
+                        div Grid test 8
+                        div Grid test 9
+                        div Grid test 10
+                        div Grid test 11
+                        div Grid test 12              
+      
+        include parts/_footer.jade

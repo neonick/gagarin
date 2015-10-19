@@ -71,10 +71,10 @@ gulp.task('clean', function (cb) {
 
 gulp.task('hello', function () {
   gutil.beep();
-  gutil.log(gutil.colors.black.bgGreen(" ┌─┐┌─┐┌─┐┌─┐┬─┐┬┌┐┌ "));
-  gutil.log(gutil.colors.black.bgGreen(" │ ┬├─┤│ ┬├─┤├┬┘││││ "));
-  gutil.log(gutil.colors.black.bgGreen(" └─┘┴ ┴└─┘┴ ┴┴└─┴┘└┘ "));
-  gutil.log(gutil.colors.black.bgGreen(' Welcome to Gagarin v.' + pkg.version + ' '));
+  gutil.log(gutil.colors.black.bgYellow(" ┌─┐┌─┐┌─┐┌─┐┬─┐┬┌┐┌ "));
+  gutil.log(gutil.colors.black.bgYellow(" │ ┬├─┤│ ┬├─┤├┬┘││││ "));
+  gutil.log(gutil.colors.black.bgYellow(" └─┘┴ ┴└─┘┴ ┴┴└─┴┘└┘ "));
+  gutil.log(gutil.colors.black.bgYellow(' Welcome to Gagarin v.' + pkg.version + ' '));
 });
 
 gulp.task('jade:build', function () {
@@ -162,7 +162,7 @@ gulp.task('watch', function(){
     watch([path.watch.fonts], function(event, cb) {
         gulp.start('fonts:build');
     });
-    gutil.log(gutil.colors.black.bgGreen(" All systems are working normally. Let's go! "));
+    gutil.log(gutil.colors.black.bgYellow(" All systems are working normally. Let's go! "));
 });
 
 

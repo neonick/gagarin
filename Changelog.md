@@ -1,7 +1,12 @@
+### 2015-19-10 v0.4.0
+
+* Changed all css structure. Rename folders.
+* Add default pages: test (with all interactive elements), about, contacts
+
 ### 2015-19-10 v0.3.8
 
 * Add [postcss-brand-colors](https://github.com/postcss/postcss-brand-colors)
-* Add block with social links in css/jade. Ad SVG-icons for it. 
+* Add block with social links in css/jade. Add SVG-icons for it. 
 * Remove [postcss-scss parser](https://github.com/postcss/postcss-scss)
 
 ### 2015-16-10 v0.3.7

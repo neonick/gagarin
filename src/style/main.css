@@ -5,148 +5,26 @@
 @import "../../bower_components/magnific-popup/dist/magnific-popup.css";
 @import "../../bower_components/Swiper/dist/css/swiper.min.css";
 
-/*
-* Variables
-*/
-@import "partials/variable";
-@import "partials/grid";
-
-* {
-  box-sizing: border-box;
-  vertical-align: top;
-}
-
-ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-
-p, h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-}
-
-a {
-	text-decoration: none;
-
-	&:hover {
-		text-decoration: none;
-	}
-}
-
-html, body {
-  font-size: 14px;
-  font-family: $mainfont;
-  -webkit-font-smoothing: antialiased;
-  background-color: #fff;
-}
 
 /*
-*	Header
+* Parts
 */
-.header {
-	text-align: center;
-	overflow: hidden;
-	position: relative;
-
-	&:before {
-		content: ' ';
-		position: fixed;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		left: 0;
-		background: url('../i/') no-repeat center center;
-		background-size: cover;
-		will-change: transform; /* important line! */
-		z-index: -1;
-	}
-}
-
-.grid_test {
-	margin-bottom: 40px;
-}
-
-.grid_test .container {
-	lost-center: 300px;
-	lost-utility: clearfix;
-	lost-utility: edit;
-
-	@media (--w480) {
-	  lost-center: 480px;
-	}
-
-	@media (--w768) {
-	  lost-center: 700px;
-	}
-
-	div {
-		lost-waffle: 1/2;
-
-		@media (--w768) {
-		  lost-column: 1/4;
-		}
-
-		@media (--w980) {
-		  lost-column: 1/6;
-		}
-	}
-}
-
+@import "parts/variable";
+@import "parts/my_reset";
+@import "parts/fonts";
+@import "parts/grid";
+@import "parts/extends";
+@import "test"; /* remove on prod */
 
 
 /*
-*	Map
+* Blocks
 */
-#map {
-	width: 100%;
-	height: 400px;
-	margin-bottom: 40px;
-}
 
+/* common */
+@import "blocks/common";
+@import "blocks/header";
+@import "blocks/footer";
 
-/*
-*	Footer
-*/
-.footer {
-	background-color: #DDD;
-	padding: 20px 0;
-}
-
-
-/*
-*	Social block
-*/
-.soc_block {
-	display: block;
-	margin: 30px auto;
-
-	a {
-		width: 40px;
-		height: 40px;
-		display: inline-block;
-		margin-right: 10px;
-
-		&.fb {
-			background: facebook-color url(../i/fb.svg) center center no-repeat;
-		}
-		&.tw {
-			background: twitter-color url(../i/tw.svg) center center no-repeat;
-		}
-		&.vk {
-			background: vkontakte-color url(../i/vk.svg) center center no-repeat;
-		}
-		&.ig {
-			background: instagram-color url(../i/ig.svg) center center no-repeat;
-		}
-		&.yt {
-			background: youtube-color url(../i/yt.svg) center center no-repeat;
-		}
-		&.pt {
-			background: pinterest-color url(../i/pt.svg) center center no-repeat;
-		}
-		&.ok {
-			background: odnoklassniki-color url(../i/ok.svg) center center no-repeat;
-		}
-	}
-}
+/* contacts */
+@import "blocks/contacts";

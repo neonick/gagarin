@@ -1,0 +1,57 @@
+.test_container {
+	padding: 50px 0;
+	
+	.container {
+		lost-center: 980px;
+		lost-utility: clearfix
+	}
+
+	h2 {
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+
+
+	&__left {
+		lost-column: 1/1 1 30px no-flex;
+
+		@media (--w768) {
+			lost-column: 1/3 2 30px no-flex;
+			text-align: center;
+		}
+	}
+
+	&__right {
+		lost-column: 1/1 1 30px no-flex;
+
+		@media (--w768) {
+			lost-column: 2/3 2 30px no-flex;
+		}
+	}
+}
+
+.grid_test {
+	lost-center: 300px;
+	lost-utility: clearfix;
+	lost-utility: edit;
+
+	@media (--w480) {
+	  lost-center: 480px;
+	}
+
+	@media (--w768) {
+	  lost-center: 700px;
+	}
+
+	div {
+		lost-waffle: 1/2;
+
+		@media (--w768) {
+		  lost-column: 1/4;
+		}
+
+		@media (--w980) {
+		  lost-column: 1/6;
+		}
+	}
+}

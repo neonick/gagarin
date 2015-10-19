@@ -19,19 +19,10 @@ npm install && bower install && gulp
 - [Swiper](https://github.com/nolimits4web/Swiper) for sliders
 - [Magnific Popup](https://github.com/dimsemenov/Magnific-Popup) for popups
 
-### Used postcss plugins
-
-- [autoprefixer](https://github.com/postcss/autoprefixer)
-- [lost](https://github.com/corysimmons/lost)
-- [precss](https://github.com/jonathantneal/precss)
-- [postcss-font-magician](https://github.com/jonathantneal/postcss-font-magician)
-- [postcss-scss parser](https://github.com/postcss/postcss-scss)
-- [postcss-focus](https://github.com/postcss/postcss-focus)
-
 ## Next releases
 
-- Do some good CSS architecture :(
 - Make right workflow with images
+- Optimize CSS architecture
 - Optimize and speed up gulp-tasks. Split dev and production tasks
 - Explore more useful postcss and [gulp plugins](https://github.com/Pestov/essential-gulp-plugins)
 
@@ -40,7 +31,6 @@ npm install && bower install && gulp
 - [gulp-svg-sprite](https://github.com/jkphl/gulp-svg-sprite) or [gulp-svgstore](https://github.com/w0rm/gulp-svgstore)
 - [gulp-useref](https://github.com/jonkemp/gulp-useref)
 - [gulp-uncss](https://github.com/ben-eb/gulp-uncss)
-- [gulp-notify](https://github.com/mikaelbr/gulp-notify)
 
 ## Release History
 
