@@ -1,3 +1,9 @@
+### 2015-19-10 v0.3.8
+
+* Add [postcss-brand-colors](https://github.com/postcss/postcss-brand-colors)
+* Add block with social links in css/jade. Ad SVG-icons for it. 
+* Remove [postcss-scss parser](https://github.com/postcss/postcss-scss)
+
 ### 2015-16-10 v0.3.7
 
 * Add [postcss-easings](https://github.com/postcss/postcss-easings)

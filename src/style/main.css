@@ -39,7 +39,6 @@ html, body {
   font-family: $mainfont;
   -webkit-font-smoothing: antialiased;
   background-color: #fff;
-  // color: red;
 }
 
 /*
@@ -112,4 +111,42 @@ html, body {
 .footer {
 	background-color: #DDD;
 	padding: 20px 0;
+}
+
+
+/*
+*	Social block
+*/
+.soc_block {
+	display: block;
+	margin: 30px auto;
+
+	a {
+		width: 40px;
+		height: 40px;
+		display: inline-block;
+		margin-right: 10px;
+
+		&.fb {
+			background: facebook-color url(../i/fb.svg) center center no-repeat;
+		}
+		&.tw {
+			background: twitter-color url(../i/tw.svg) center center no-repeat;
+		}
+		&.vk {
+			background: vkontakte-color url(../i/vk.svg) center center no-repeat;
+		}
+		&.ig {
+			background: instagram-color url(../i/ig.svg) center center no-repeat;
+		}
+		&.yt {
+			background: youtube-color url(../i/yt.svg) center center no-repeat;
+		}
+		&.pt {
+			background: pinterest-color url(../i/pt.svg) center center no-repeat;
+		}
+		&.ok {
+			background: odnoklassniki-color url(../i/ok.svg) center center no-repeat;
+		}
+	}
 }
