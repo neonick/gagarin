@@ -1,8 +1,7 @@
 // initialize Google map
 function initialize() {
-    var pos = new google.maps.LatLng(45.049200, 38.956139);
-    var centr = new google.maps.LatLng(45.049434, 38.956139);
-
+    var pos = new google.maps.LatLng(45.048311, 38.958070);
+    var centr = new google.maps.LatLng(45.048311, 38.958070);
 
     var mapOptions = {
         center: centr,
@@ -22,7 +21,12 @@ function initialize() {
         position: pos,
         map: map,
         title: '',
-        icon: 'i/map_icon.png'
+        animation: google.maps.Animation.DROP,
+        icon: {
+            url: 'i/pin.png',
+            origin: new google.maps.Point(0, 0),
+            anchor: new google.maps.Point(48, 100)
+        }
     });
 }
 google.maps.event.addDomListener(window, 'load', initialize);
