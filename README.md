@@ -21,9 +21,9 @@ npm install && bower install && gulp
 
 ## Next releases
 
-- Make right workflow with images
-- Optimize CSS architecture
-- Optimize and speed up gulp-tasks. Split dev and production tasks
+- Make right workflow with images;
+- Optimize CSS architecture;
+- Optimize and speed up gulp-tasks. Split dev and production tasks;
 - Explore more useful postcss and [gulp plugins](https://github.com/Pestov/essential-gulp-plugins)
 
 #### Possible additions and improvements
