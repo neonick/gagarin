@@ -58,7 +58,11 @@ var config = {
     port: 9000,
     logLevel: "silent",
     // logLevel: "info",
-    logPrefix: "Gagarin"
+    logPrefix: "Gagarin",
+    notify: false,
+    ghostMode: false,
+    online: false,
+    open: true
 };
 
 gulp.task('webserver', function () {
