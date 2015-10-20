@@ -11,6 +11,7 @@ function initialize() {
             style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
         },
         scrollwheel: false,
+        // disableDefaultUI: true, 
         rotateControl: true
     };
 
