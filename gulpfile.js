@@ -13,6 +13,7 @@ var gulp = require('gulp'),
 
     // postcss and plugins
     postcss = require('gulp-postcss'),
+    postcssSVG = require('postcss-svg'),
     precss = require('precss'),
     easings = require('postcss-easings'),
     lost = require('lost'),
@@ -103,6 +104,9 @@ gulp.task('style:build', function () {
         .pipe( postcss([
             precss,
             lost,
+            postcssSVG({
+                paths: ['src/i/'],
+            }),
             fontmagician,
             postcssfocus,
             easings,

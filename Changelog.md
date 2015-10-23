@@ -1,3 +1,10 @@
+### 2015-23-10 v0.4.1
+
+* Add [Tabslet](https://github.com/vdw/Tabslet/)
+* Add [jquery.scrollTo](https://github.com/flesler/jquery.scrollTo)
+* Add [postcss-svg](https://github.com/Pavliko/postcss-svg)
+* Update packages
+
 ### 2015-19-10 v0.4.0
 
 * Changed all css structure. Rename folders.
