@@ -59,7 +59,11 @@
 	}
 
 	.gmnoprint  {
-		display: none !important;
+		/* hide ui */
+	}
+
+	[href*='https://maps.google.com/'] {	
+		/* hide google map icon */
 	}
 
 }
