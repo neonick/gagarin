@@ -103,6 +103,7 @@ gulp.task('style:build', function () {
 
         .pipe( postcss([
             precss,
+            brandcolors,
             lost,
             postcssSVG({
                 paths: ['src/i/'],
@@ -110,7 +111,6 @@ gulp.task('style:build', function () {
             fontmagician,
             postcssfocus,
             easings,
-            brandcolors,
             autoprefixer({ browsers: ['last 2 versions'] })
         ]))
 

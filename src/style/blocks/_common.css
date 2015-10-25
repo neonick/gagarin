@@ -17,7 +17,7 @@
 			background: facebook-color url(../i/fb.svg) center center no-repeat;
 
 			&:hover {
-				background-image: svg("ei#sc-facebook", "[fill]: black");
+				background-image: svg("fb", "[fill]: facebook-color");
 			}
 		}
 		&.tw {
