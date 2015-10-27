@@ -42,6 +42,13 @@
 		&.ok {
 			background: odnoklassniki-color url(../i/ok.svg) center center no-repeat;
 		}
+		&.fq {
+			background: foursquare-color url(../i/fq.svg) center center no-repeat;
+		}
+
+		&.lj {
+			background: #004359 url(../i/lj.svg) center center no-repeat;
+		}
 	}
 }
 
