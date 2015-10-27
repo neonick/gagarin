@@ -8,7 +8,13 @@
 
 	h2 {
 		font-size: 20px;
+		line-height: 20px;
 		margin-bottom: 20px;
+
+		a {
+			font-weight: normal;
+			font-size: 12px;
+		}
 	}
 
 

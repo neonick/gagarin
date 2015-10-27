@@ -1,3 +1,9 @@
+### 2015-27-10 v0.4.2
+
+* Add [jquery.maskedinput](https://github.com/digitalBush/jquery.maskedinput)
+* Add 2 new social icons (+svg)
+* Small changes in css
+
 ### 2015-23-10 v0.4.1
 
 * Add [Tabslet](https://github.com/vdw/Tabslet/)

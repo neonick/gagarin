@@ -12,6 +12,7 @@
 		margin-right: 10px;
 		background-size: 20px;
 		transition: background-image 0.2s ease-in-out;
+		border-radius: 50%;
 
 		&.fb {
 			background: facebook-color url(../i/fb.svg) center center no-repeat;

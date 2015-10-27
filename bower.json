@@ -1,6 +1,6 @@
 {
   "name": "Gagarin",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "homepage": "https://github.com/neonick/gagarin",
   "authors": [
     "Nick Marchenko <n30n1ck@gmail.com>"
@@ -15,6 +15,7 @@
     "normalize-css": "~3.0.3",
     "Swiper": "swiper#~3.1.7",
     "jquery.scrollTo": "~2.1.2",
-    "Tabslet": "~1.7.0"
+    "Tabslet": "~1.7.0",
+    "jquery.maskedinput": "~1.4.1"
   }
 }
