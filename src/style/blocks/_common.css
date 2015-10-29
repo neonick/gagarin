@@ -11,7 +11,7 @@
 		display: inline-block;
 		margin-right: 10px;
 		background-size: 20px;
-		transition: background-image 0.2s ease-in-out;
+		transition: border 0.2s ease-in-out, background 0.2s ease-in-out;
 		border-radius: 50%;
 
 		&.fb {
@@ -19,14 +19,12 @@
 
 			&:hover {
 				background-image: svg("fb", "[fill]: facebook-color");
+				background-color: #fff;
+				border: 2px solid facebook-color;
 			}
 		}
 		&.tw {
 			background: twitter-color url(../i/tw.svg) center center no-repeat;
-
-			&:hover {
-				background-image: svg("tw", "[fill]: black");
-			}
 		}
 		&.vk {
 			background: vkontakte-color url(../i/vk.svg) center center no-repeat;

@@ -37,6 +37,10 @@
     "postcss-font-magician": "^1.3.0",
     "postcss-svg": "^1.0.1",
     "precss": "^1.3.0",
-    "rimraf": "^2.4.3"
+    "rimraf": "^2.4.3",
+    "snyk": "^0.5.3"
+  },
+  "scripts": {
+    "test": "snyk test"
   }
 }
