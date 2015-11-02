@@ -18,6 +18,9 @@ npm install && bower install && gulp
 - [Lost Grid System](https://github.com/corysimmons/lost) for grids
 - [Swiper](https://github.com/nolimits4web/Swiper) for sliders
 - [Magnific Popup](https://github.com/dimsemenov/Magnific-Popup) for popups
+- [Tabslet](https://github.com/vdw/Tabslet) for tabs
+- [jquery.maskedinput](https://github.com/digitalBush/jquery.maskedinput) for input masks
+
 
 ## Next releases
 

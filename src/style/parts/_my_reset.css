@@ -10,7 +10,7 @@ ul {
 }
 
 p, h1, h2, h3, h4, h5, h6 {
-  margin: 0;
+	margin: 0;
 }
 
 a {
@@ -21,8 +21,8 @@ a {
 }
 
 html, body {
-  font-size: 14px;
-  font-family: $custom;
-  background-color: #fff;
-  -webkit-font-smoothing: antialiased;
+	font-size: 14px;
+	font-family: $custom;
+	background-color: #fff;
+	-webkit-font-smoothing: antialiased;
 }

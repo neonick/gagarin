@@ -18,6 +18,10 @@
 		}
 	}
 
+	h3 {
+		margin-top: 60px;
+	}
+
 
 	&__left {
 		lost-column: 1/1 1 30px no-flex;
@@ -61,3 +65,33 @@
 		}
 	}
 }
+
+
+.test_arial {
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+}
+.test_opensans {
+	font-family: $custom;
+	font-size: 16px;
+}
+.test_ptsans {
+	font-family: "PT Sans", sans-serif;
+	font-size: 16px;
+}
+
+.test_roboto {
+	font-family: $roboto;
+	font-size: 18px;
+}
+
+.test_ptserif {
+	font-family: "PT Serif", serif;
+	font-size: 18px;
+}
+
+.test_lobster {
+	font-family: "Lobster", serif;
+	font-size: 18px;
+}
+
