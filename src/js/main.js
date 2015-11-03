@@ -7,6 +7,7 @@
 //= ../../bower_components/jquery.scrollTo/jquery.scrollTo.min.js
 //= ../../bower_components/Tabslet/jquery.tabslet.min.js
 //= ../../bower_components/jquery.maskedinput/dist/jquery.maskedinput.min.js
+//= ../../bower_components/ion.rangeslider/js/ion.rangeSlider.min.js
 
 $(document).ready(function () {
 
