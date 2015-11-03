@@ -16,6 +16,7 @@
     "Swiper": "swiper#~3.1.7",
     "jquery.scrollTo": "~2.1.2",
     "Tabslet": "~1.7.0",
-    "jquery.maskedinput": "~1.4.1"
+    "jquery.maskedinput": "~1.4.1",
+    "ion.rangeslider": "ionrangeslider#~2.1.2"
   }
 }

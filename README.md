@@ -20,7 +20,7 @@ npm install && bower install && gulp
 - [Magnific Popup](https://github.com/dimsemenov/Magnific-Popup) for popups
 - [Tabslet](https://github.com/vdw/Tabslet) for tabs
 - [jquery.maskedinput](https://github.com/digitalBush/jquery.maskedinput) for input masks
-
+- [ion.rangeSlider](https://github.com/IonDen/ion.rangeSlider) for range slider
 
 ## Next releases
 
