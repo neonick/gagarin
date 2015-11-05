@@ -1,3 +1,9 @@
+### 2015-6-11 v0.4.3
+
+* Add [gulp-prettify](https://github.com/jonschlinkert/gulp-prettify)
+* Add new social icon for Google+
+* Update packages
+
 ### 2015-27-10 v0.4.2
 
 * Add [jquery.maskedinput](https://github.com/digitalBush/jquery.maskedinput)
