@@ -199,7 +199,7 @@ gulp.task('watch', function(){
     watch([path.watch.fonts], function(event, cb) {
         gulp.start('fonts:build');
     });
-    gutil.log(gutil.colors.black.bgYellow(" All systems are working normally. Let's go! "));
+    
 });
 
 
