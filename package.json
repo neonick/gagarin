@@ -19,7 +19,7 @@
   "license": "MIT",
   "dependencies": {
     "autoprefixer": "^6.0.3",
-    "browser-sync": "^2.9.11",
+    "browser-sync": "^2.9.12",
     "gulp": "^3.9.0",
     "gulp-cssnano": "^2.0.0",
     "gulp-imagemin": "^2.4.0",
