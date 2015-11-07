@@ -75,3 +75,52 @@
 	}
 }
 
+
+/*
+*	checkbox styles
+*/
+.custom_chbox {
+	margin-bottom: 10px;
+}
+
+input[type=checkbox].custom_chbox__input {
+	position:absolute;
+	z-index:-1000;
+	left:-1000px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	height:1px;
+	width:1px;
+	margin:-1px;
+	padding:0;
+	border:0;
+}
+
+input[type=checkbox].custom_chbox__input + .custom_chbox__label {
+	padding-left: 30px;
+	height: 21px; 
+	display:inline-block;
+	line-height: 21px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	font-size: 12px;
+	vertical-align:middle;
+	cursor:pointer;
+	color: #808080;
+	transition: color 0.2s;
+
+	&:hover {
+		color: #000;
+	} 
+}
+
+input[type=checkbox].custom_chbox__input:checked + .custom_chbox__label {
+	background-position: 0 -21px;
+	color: #000;
+}
+
+.custom_chbox__label {
+	background-image:url(../i/checkbox.png);
+	user-select: none;
+	margin-bottom: 6px;
+}

@@ -109,7 +109,7 @@ gulp.task('hello', function () {
   gutil.log(gutil.colors.black.bgYellow("             v." + pkg.version + " "));
 });
 
-gulp.task('jade:build', function () {
+gulp.task('html:build', function () {
     gulp.src(path.src.jade)
         .pipe(jade({pretty: true}))
         .pipe(gulpprettify(configPrettify))
@@ -175,7 +175,7 @@ gulp.task('fonts:build', function() {
 
 gulp.task('build', [
     'hello',
-    'jade:build',
+    'html:build',
     'js:build',
     'style:build',
     'fonts:build',
@@ -185,7 +185,7 @@ gulp.task('build', [
 
 gulp.task('watch', function(){
     watch([path.watch.jade], function(event, cb) {
-        gulp.start('jade:build');
+        gulp.start('html:build');
     });
     watch([path.watch.style], function(event, cb) {
         gulp.start('style:build');

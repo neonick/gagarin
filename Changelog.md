@@ -1,3 +1,8 @@
+### 2015-4-11 v0.4.4
+
+* Add [Fotorama](https://github.com/artpolikarpov/fotorama/)
+* Add custom checkbox
+
 ### 2015-6-11 v0.4.3
 
 * Add [gulp-prettify](https://github.com/jonschlinkert/gulp-prettify)

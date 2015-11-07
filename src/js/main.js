@@ -8,6 +8,7 @@
 //= ../../bower_components/Tabslet/jquery.tabslet.min.js
 //= ../../bower_components/jquery.maskedinput/dist/jquery.maskedinput.min.js
 //= ../../bower_components/ion.rangeslider/js/ion.rangeSlider.min.js
+//= ../../bower_components/fotorama/fotorama.js
 
 $(document).ready(function () {
 

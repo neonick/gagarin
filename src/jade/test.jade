@@ -31,9 +31,10 @@ html(lang='ru')
                     include blocks/soc_block.jade
                     
                     h2 Google map
+                    
                     #map
                     
-                    h2 Lost grid test 
+                    h2 Grid 
                         a(href="https://github.com/corysimmons/lost" target="_blank") (documentation)
                     
                     .grid_test
@@ -50,10 +51,34 @@ html(lang='ru')
                         div Grid test 11
                         div Grid test 12   
 
+
                     h2 Masked Input 
                         a(href="https://github.com/digitalBush/jquery.maskedinput" target="_blank") (documentation)
 
                     input(type="text" id="phone")
+
+
+                    h2 Custom checkbox 
+
+                    .custom_chbox
+                        input(type="checkbox" class="custom_chbox__input" id="chb1" checked)
+                        label(for="chb1" class="custom_chbox__label") Checkbox 1
+
+                    .custom_chbox
+                        input(type="checkbox" class="custom_chbox__input" id="chb2")
+                        label(for="chb2" class="custom_chbox__label") Checkbox 2
+
+                    .custom_chbox
+                        input(type="checkbox" class="custom_chbox__input" id="chb3")
+                        label(for="chb3" class="custom_chbox__label") Checkbox 3
+
+
+                    h2 Fotorama 
+                        a(href="http://fotorama.io/customize/options/" target="_blank") (documentation)
+
+                    .fotorama
+                        img(src="http://s.fotorama.io/1.jpg", alt="")
+                        img(src="http://s.fotorama.io/2.jpg", alt="")
 
                 .test_container__left
                     h3 Other Useful plugins (don't included):
