@@ -1,4 +1,9 @@
-### 2015-4-11 v0.4.4
+### 2015-10-11 v0.4.5
+
+* Rename Gulp tasks
+* Update packages
+
+### 2015-8-11 v0.4.4
 
 * Add [Fotorama](https://github.com/artpolikarpov/fotorama/)
 * Add custom checkbox
