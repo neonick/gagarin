@@ -11,6 +11,7 @@ var gulp = require('gulp'),
     rigger = require("gulp-rigger"),
     gutil = require('gulp-util'),
     gulpprettify = require('gulp-prettify'),
+    mqpacker = require('css-mqpacker'),
 
     // postcss and plugins
     postcss = require('gulp-postcss'),
@@ -140,7 +141,8 @@ gulp.task('build:css', function () {
             postcssCenter,
             postcssfocus,
             easings,
-            autoprefixer({ browsers: ['last 2 versions'] })
+            autoprefixer({ browsers: ['last 2 versions'] }),
+            mqpacker
         ]))
 
         .pipe(cssnano({

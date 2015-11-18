@@ -1,3 +1,8 @@
+### 2015-10-11 v0.4.6
+
+* Add [mqpacker](https://github.com/hail2u/node-css-mqpacker)
+* Update packages
+
 ### 2015-10-11 v0.4.5
 
 * Rename Gulp tasks

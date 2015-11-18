@@ -1,6 +1,6 @@
 {
   "name": "gagarin",
-  "version": "0.4.5",
+  "version": "0.4.6",
   "description": "Frontend template",
   "keywords": [
     "frontend",
@@ -20,6 +20,7 @@
   "dependencies": {
     "autoprefixer": "^6.1.0",
     "browser-sync": "^2.10.0",
+    "css-mqpacker": "^4.0.0",
     "gulp": "^3.9.0",
     "gulp-cssnano": "^2.0.0",
     "gulp-imagemin": "^2.4.0",
