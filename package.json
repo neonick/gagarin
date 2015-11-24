@@ -18,7 +18,7 @@
   "author": "Nick Marchenko (n30n1ck@gmail.com)",
   "license": "MIT",
   "dependencies": {
-    "autoprefixer": "^6.1.0",
+    "autoprefixer": "^6.1.1",
     "browser-sync": "^2.10.0",
     "css-mqpacker": "^4.0.0",
     "gulp": "^3.9.0",
@@ -40,6 +40,6 @@
     "postcss-font-magician": "^1.3.0",
     "postcss-svg": "^1.0.4",
     "precss": "^1.3.0",
-    "rimraf": "^2.4.3"
+    "rimraf": "^2.4.4"
   }
 }
