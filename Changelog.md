@@ -1,3 +1,9 @@
+### 2015-10-11 v0.4.7
+
+* Add page load plugin [nprogress](https://github.com/rstacruz/nprogress/)
+* Add links to useful plugins
+* Update packages
+
 ### 2015-10-11 v0.4.6
 
 * Add [mqpacker](https://github.com/hail2u/node-css-mqpacker)
