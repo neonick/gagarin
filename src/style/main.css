@@ -6,6 +6,7 @@
 @import "../../bower_components/Swiper/dist/css/swiper.min.css";
 @import "../../bower_components/ion.rangeslider/css/ion.rangeSlider.css";
 @import "../../bower_components/fotorama/fotorama.css";
+@import "../../node_modules/nprogress/nprogress.css";
 
 /*
 * Parts

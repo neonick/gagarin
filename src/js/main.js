@@ -2,6 +2,7 @@
     Custom scripts
  */
 //= ../../bower_components/jquery/dist/jquery.min.js
+//= ../../node_modules/nprogress/nprogress.js
 //= ../../bower_components/magnific-popup/dist/jquery.magnific-popup.min.js
 //= ../../bower_components/Swiper/dist/js/swiper.jquery.min.js
 //= ../../bower_components/jquery.scrollTo/jquery.scrollTo.min.js
@@ -20,5 +21,18 @@ $(document).ready(function () {
     //= parts/_init_gmaps.js
 
     //= parts/_init_swiper.js
+
+});
+
+
+$(document).ready(function () {
+	// start NProgress
+	NProgress.start();
+});
+
+$(window).load(function() {
+
+	// stop NProgress
+	NProgress.done();
 
 })

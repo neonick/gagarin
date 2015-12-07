@@ -1,6 +1,6 @@
 {
   "name": "gagarin",
-  "version": "0.4.6",
+  "version": "0.4.8",
   "description": "Frontend template",
   "keywords": [
     "frontend",
@@ -33,6 +33,7 @@
     "gulp-watch": "^4.3.5",
     "imagemin-pngquant": "^4.2.0",
     "lost": "^6.6.2",
+    "nprogress": "^0.2.0",
     "postcss-brand-colors": "^0.3.0",
     "postcss-center": "^1.0.0",
     "postcss-easings": "^0.3.0",
