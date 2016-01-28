@@ -11,11 +11,11 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "magnific-popup": "~1.0.0",
+    "magnific-popup": "~1.0.1",
     "normalize-css": "~3.0.3",
-    "Swiper": "swiper#~3.2.7",
+    "Swiper": "swiper#^3.3.0",
     "jquery.scrollTo": "~2.1.2",
-    "Tabslet": "~1.7.0",
+    "Tabslet": "^1.7.1",
     "jquery.maskedinput": "~1.4.1",
     "ion.rangeslider": "ionrangeslider#~2.1.2",
     "fotorama": "~4.6.4"
