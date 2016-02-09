@@ -2,31 +2,50 @@
 * Third Party
 */
 @import "../../bower_components/normalize-css/normalize.css";
-@import "../../bower_components/magnific-popup/dist/magnific-popup.css";
-@import "../../bower_components/Swiper/dist/css/swiper.min.css";
-@import "../../bower_components/ion.rangeslider/css/ion.rangeSlider.css";
-@import "../../bower_components/fotorama/fotorama.css";
-@import "../../node_modules/nprogress/nprogress.css";
+/*@import "../../bower_components/magnific-popup/dist/magnific-popup.css";*/
+/*@import "../../bower_components/Swiper/dist/css/swiper.min.css";*/
+/*@import "../../bower_components/ion.rangeslider/css/ion.rangeSlider.css";*/
+/*@import "../../bower_components/fotorama/fotorama.css";*/
+/*@import "../../node_modules/nprogress/nprogress.css";*/
+
 
 /*
 * Parts
 */
-@import "parts/variable";
-@import "parts/my_reset";
+@import "parts/reset";
 @import "parts/fonts";
-@import "parts/grid";
-@import "parts/extends";
+@import "parts/variables";
+@import "parts/common";
 @import "test"; /* remove on prod */
 
 
 /*
-* Blocks
+*	Header
 */
+.header {
+	padding: 20px 0;
+}
 
-/* common */
-@import "blocks/common";
-@import "blocks/header";
-@import "blocks/footer";
+.logo {
+	display: inline-block;
+	margin-right: 30px;
+}
 
-/* contacts */
-@import "blocks/contacts";
+.main_menu {
+	display: inline-block;	
+	
+	a {
+		line-height: 100px;
+		margin: 0 20px;
+	}
+}
+
+
+
+/*
+*	Footer
+*/
+.footer {
+	background-color: #DDD;
+	padding: 20px 0;
+}

@@ -8,10 +8,13 @@
 @custom-media --w1400 (min-width: 1400px);
 @custom-media --w1600 (min-width: 1600px);
 
-
 /*
 * Variables
 */
-$maincolor: #000;
 $custom: "Open Sans", Arial, sans-serif;
 $roboto: "Roboto", Arial, sans-serif;
+
+/*
+* Lost variables
+*/
+@lost gutter 30px;
