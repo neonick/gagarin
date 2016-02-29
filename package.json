@@ -28,7 +28,7 @@
     "gulp-postcss": "^6.1.0",
     "gulp-prettify": "^0.3.0",
     "gulp-rigger": "^0.5.8",
-    "gulp-uglify": "^1.5.2",
+    "gulp-uglify": "^1.5.3",
     "gulp-util": "^3.0.7",
     "gulp-watch": "^4.3.5",
     "imagemin-pngquant": "^4.2.2",

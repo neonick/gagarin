@@ -11,7 +11,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "magnific-popup": "~1.0.1",
+    "magnific-popup": "^1.1.0",
     "normalize-css": "~3.0.3",
     "Swiper": "swiper#^3.3.1",
     "jquery.scrollTo": "~2.1.2",
