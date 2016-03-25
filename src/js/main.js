@@ -1,16 +1,16 @@
 /*
     Custom scripts
  */
-//= ../../bower_components/jquery/dist/jquery.min.js
-//= ../../bower_components/Swiper/dist/js/swiper.jquery.min.js
-//= ../../bower_components/jquery.maskedinput/dist/jquery.maskedinput.min.js
+//= ../../node_modules/jquery/dist/jquery.min.js
+//= ../../node_modules/swiper/dist/js/swiper.jquery.min.js
+//= ../../node_modules/jquery.maskedinput/src/jquery.maskedinput.js
 
 //|=== unkomment to use ===| //= ../../node_modules/nprogress/nprogress.js
-//|=== unkomment to use ===| //= ../../bower_components/magnific-popup/dist/jquery.magnific-popup.min.js
-//|=== unkomment to use ===| //= ../../bower_components/jquery.scrollTo/jquery.scrollTo.min.js
-//|=== unkomment to use ===| //= ../../bower_components/Tabslet/jquery.tabslet.min.js
-//|=== unkomment to use ===| //= ../../bower_components/ion.rangeslider/js/ion.rangeSlider.min.js
-//|=== unkomment to use ===| //= ../../bower_components/fotorama/fotorama.js
+//|=== unkomment to use ===| //= ../../node_modules/magnific-popup/dist/jquery.magnific-popup.min.js
+//|=== unkomment to use ===| //= ../../node_modules/jquery.scrollTo/jquery.scrollTo.min.js
+//|=== unkomment to use ===| //= ../../node_modules/tabslet/jquery.tabslet.min.js
+//|=== unkomment to use ===| //= ../../node_modules/ion.rangeslider/js/ion.rangeSlider.min.js
+//|=== unkomment to use ===| //= ../../node_modules/fotorama/fotorama.js
 
 $(document).ready(function () {
 

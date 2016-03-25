@@ -7,10 +7,10 @@ I use [Lost Grid System](https://github.com/corysimmons/lost) for easy handling 
 
 **Poyekhali!**
 
-## Installation
+## Installation and run
 
 ```
-npm install && bower install && gulp
+npm install && gulp
 ```
 
 ## Used vendor plugins
@@ -46,10 +46,8 @@ The MIT License, see the included [License.md](License.md) file.
 
 ###### Footnote
 
-<img width="150" height="150" align="right" src="https://raw.githubusercontent.com/neonick/gagarin/master/src/i/frontend_technologies.gif" title="Modern frontend developer">
-
 Oh, yes, I wrote my own frontend framework.
 
 This development has two objectives – to develop my own template for a quick start of new project.
 The second goal – practice with Github and with ancillary services and technologies.
-I want to understand the most advanced frontend technology, because it seems to me that I was lagging behind many developers.
+I want to understand the most advanced frontend technology, because it seems to me that I was little lagging behind.

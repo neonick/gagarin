@@ -1,3 +1,10 @@
+### 2016-25-03 v0.5.0
+
+* Change file's structure
+* Remove Bower
+* Update packages
+* Bump version
+
 ### 2016-09-02 v0.4.9
 
 * Change file's structure

@@ -103,11 +103,11 @@ gulp.task('clean', function (cb) {
 
 gulp.task('hello', function () {
   gutil.beep();
-  gutil.log(gutil.colors.black.bgYellow(" Welcome to          "));
-  gutil.log(gutil.colors.black.bgYellow(" ┌─┐┌─┐┌─┐┌─┐┬─┐┬┌┐┌ "));
-  gutil.log(gutil.colors.black.bgYellow(" │ ┬├─┤│ ┬├─┤├┬┘││││ "));
-  gutil.log(gutil.colors.black.bgYellow(" └─┘┴ ┴└─┘┴ ┴┴└─┴┘└┘ "));
-  gutil.log(gutil.colors.black.bgYellow("             v." + pkg.version + " "));
+  gutil.log(gutil.colors.black.bgCyan(" Welcome to          "));
+  gutil.log(gutil.colors.black.bgCyan(" ┌─┐┌─┐┌─┐┌─┐┬─┐┬┌┐┌ "));
+  gutil.log(gutil.colors.black.bgCyan(" │ ┬├─┤│ ┬├─┤├┬┘││││ "));
+  gutil.log(gutil.colors.black.bgCyan(" └─┘┴ ┴└─┘┴ ┴┴└─┴┘└┘ "));
+  gutil.log(gutil.colors.black.bgCyan("             v." + pkg.version + " "));
 });
 
 gulp.task('build:html', function () {
