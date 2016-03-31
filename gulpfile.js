@@ -40,14 +40,14 @@ var path = {
         jade: 'src/jade/*.jade',
         js: 'src/js/main.js',
         style: 'src/style/main.css',
-        img: 'src/i/**/*.*',
+        img: 'src/i/*.+(jpg|jpeg|png|svg|gif)',
         fonts: 'src/fonts/**/*.*'
     },
     watch: {
         jade: 'src/jade/**/*.jade',
         js: 'src/js/**/*.js',
         style: 'src/style/**/*.css',
-        img: 'src/i/**/*.*',
+        img: 'src/i/*.+(jpg|jpeg|png|svg|gif)',
         fonts: 'src/fonts/**/*.*'
     },
     clean: './build'
