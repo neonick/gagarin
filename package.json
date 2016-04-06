@@ -18,7 +18,7 @@
   "author": "Nick Marchenko (n30n1ck@gmail.com)",
   "license": "MIT",
   "dependencies": {
-    "autoprefixer": "^6.3.5",
+    "autoprefixer": "^6.3.6",
     "browser-sync": "^2.11.2",
     "css-mqpacker": "^4.0.1",
     "fotorama": "~4.6.4",
@@ -29,6 +29,7 @@
     "gulp-postcss": "^6.1.0",
     "gulp-prettify": "^0.4.0",
     "gulp-rigger": "^0.5.8",
+    "gulp-sourcemaps": "^1.6.0",
     "gulp-uglify": "^1.5.3",
     "gulp-util": "^3.0.7",
     "gulp-watch": "^4.3.5",

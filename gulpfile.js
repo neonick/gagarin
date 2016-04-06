@@ -12,6 +12,7 @@ var gulp = require('gulp'),
     gutil = require('gulp-util'),
     gulpprettify = require('gulp-prettify'),
     mqpacker = require('css-mqpacker'),
+    sourcemaps = require('gulp-sourcemaps'),
 
     // postcss and plugins
     postcss = require('gulp-postcss'),
@@ -128,6 +129,7 @@ gulp.task('build:js', function () {
 
 gulp.task('build:css', function () {
     gulp.src(path.src.style)
+        .pipe(sourcemaps.init())
         .pipe(rigger())
 
         .pipe( postcss([
@@ -154,6 +156,7 @@ gulp.task('build:css', function () {
           }
         }))
 
+        .pipe(sourcemaps.write())
         .pipe(gulp.dest(path.build.css))
         .pipe(reload({stream: true}));
 });
