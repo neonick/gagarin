@@ -1,7 +1,7 @@
 The MIT License
 ===============
 
-Copyright © 2015 Nickolay Marchenko (http://neonick.ru/), contributors
+Copyright © 2016 Nickolay Marchenko (http://neonick.ru/), contributors
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

@@ -1,6 +1,6 @@
 {
   "name": "gagarin",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Frontend template",
   "keywords": [
     "frontend",
@@ -27,7 +27,6 @@
     "gulp-imagemin": "^2.4.0",
     "gulp-jade": "^1.1.0",
     "gulp-postcss": "^6.1.0",
-    "gulp-prettify": "^0.4.0",
     "gulp-rigger": "^0.5.8",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-uglify": "^1.5.3",

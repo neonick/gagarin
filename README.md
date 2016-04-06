@@ -13,6 +13,13 @@ I use [Lost Grid System](https://github.com/corysimmons/lost) for easy handling 
 npm install && gulp
 ```
 
+## Task
+
+```
+gulp — for watching and development
+gulp build — for ready to pruduction build
+```
+ 
 ## Used vendor plugins
 
 - [Lost Grid System](https://github.com/corysimmons/lost) for grids
@@ -26,8 +33,7 @@ npm install && gulp
 ## Next releases
 
 - Make right workflow with images;
-- Optimize CSS architecture;
-- Optimize and speed up gulp-tasks. Split dev and production tasks;
+- Optimize and speed up gulp-tasks.
 - Explore more useful postcss and [gulp plugins](https://github.com/Pestov/essential-gulp-plugins)
 
 #### Possible additions and improvements

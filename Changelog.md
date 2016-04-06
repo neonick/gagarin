@@ -1,3 +1,12 @@
+### 2016-06-04 v0.6.0
+
+* Add different gulp-tasks for watch and build tasks
+* Add sourcemaps
+* Rename main css and js file
+* Remove gulp-prettify
+* Fix js bugs
+* Update packages
+
 ### 2016-25-03 v0.5.0
 
 * Change file's structure
