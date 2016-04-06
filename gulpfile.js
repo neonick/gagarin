@@ -79,11 +79,11 @@ gulp.task('clean', function (cb) {
 
 gulp.task('hello', function () {
   gutil.beep();
-  gutil.log(gutil.colors.black.bgCyan(" Welcome to          "));
-  gutil.log(gutil.colors.black.bgCyan(" ┌─┐┌─┐┌─┐┌─┐┬─┐┬┌┐┌ "));
-  gutil.log(gutil.colors.black.bgCyan(" │ ┬├─┤│ ┬├─┤├┬┘││││ "));
-  gutil.log(gutil.colors.black.bgCyan(" └─┘┴ ┴└─┘┴ ┴┴└─┴┘└┘ "));
-  gutil.log(gutil.colors.black.bgCyan("             v." + pkg.version + " "));
+  gutil.log(gutil.colors.black.bgWhite(" Welcome to          "));
+  gutil.log(gutil.colors.black.bgWhite(" ┌─┐┌─┐┌─┐┌─┐┬─┐┬┌┐┌ "));
+  gutil.log(gutil.colors.black.bgWhite(" │ ┬├─┤│ ┬├─┤├┬┘││││ "));
+  gutil.log(gutil.colors.black.bgWhite(" └─┘┴ ┴└─┘┴ ┴┴└─┴┘└┘ "));
+  gutil.log(gutil.colors.black.bgWhite("             v." + pkg.version + " "));
 });
 
 gulp.task('html', function () {
@@ -231,8 +231,8 @@ gulp.task('watch', function(){
 
 gulp.task('default', 
     ['hello',
-     'webserver', 
-     'watch'
+     'watch',
+     'webserver'
 ]);
 
 
