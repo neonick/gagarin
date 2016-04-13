@@ -12,6 +12,7 @@ var gulp = require('gulp'),
     gutil = require('gulp-util'),
     mqpacker = require('css-mqpacker'),
     sourcemaps = require('gulp-sourcemaps'),
+    csso = require('postcss-csso'),
 
     // postcss and plugins
     postcss = require('gulp-postcss'),
@@ -162,17 +163,9 @@ gulp.task('build:css', function () {
             postcssfocus,
             easings,
             autoprefixer({ browsers: ['last 2 versions'] }),
-            mqpacker
+            mqpacker,
+            csso
         ]))
-
-        .pipe(cssnano({
-          convertValues: {
-            length: false
-          },
-          discardComments: {
-            removeAll: true
-          }
-        }))
 
         .pipe(gulp.dest(path.build.css))
 

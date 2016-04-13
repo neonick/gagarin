@@ -1,3 +1,8 @@
+### 2016-13-04 v0.6.2
+
+* [gulp-cssnano](https://github.com/ben-eb/gulp-cssnano) → [postcss-csso](https://github.com/lahmatiy/postcss-csso)
+* Update packages
+
 ### 2016-06-04 v0.6.0
 
 * Add different gulp-tasks for watch and build tasks
