@@ -19,11 +19,10 @@
   "license": "MIT",
   "dependencies": {
     "autoprefixer": "^6.3.6",
-    "browser-sync": "^2.12.2",
+    "browser-sync": "^2.12.3",
     "css-mqpacker": "^4.0.1",
     "fotorama": "~4.6.4",
     "gulp": "^3.9.1",
-    "gulp-cssnano": "^2.1.1",
     "gulp-imagemin": "^2.4.0",
     "gulp-jade": "^1.1.0",
     "gulp-postcss": "^6.1.0",
