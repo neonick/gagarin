@@ -45,7 +45,7 @@
     "postcss-easings": "^0.3.0",
     "postcss-focus": "^1.0.0",
     "postcss-font-magician": "^1.4.0",
-    "postcss-svg": "^1.0.4",
+    "postcss-svg": "^1.0.5",
     "precss": "^1.4.0",
     "rimraf": "^2.5.2",
     "swiper": "^3.3.1",

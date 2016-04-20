@@ -44,7 +44,7 @@
 		height: 40px;
 		display: inline-block;
 		margin-right: 10px;
-		background-size: 20px;
+		background-size: 20px auto;
 		transition: border 0.2s ease-in-out, background 0.2s ease-in-out;
 		border-radius: 50%;
 
@@ -68,6 +68,9 @@
 		}
 		&.yt {
 			background: youtube-color url(../i/yt.svg) center center no-repeat;
+		}
+		&.yt2 {
+			background: youtube-color url(../i/yt2.svg) center center no-repeat;
 		}
 		&.pt {
 			background: pinterest-color url(../i/pt.svg) center center no-repeat;
