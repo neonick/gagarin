@@ -19,7 +19,7 @@
   "license": "MIT",
   "dependencies": {
     "autoprefixer": "^6.3.6",
-    "browser-sync": "^2.12.3",
+    "browser-sync": "^2.12.4",
     "css-mqpacker": "^4.0.1",
     "fotorama": "~4.6.4",
     "gulp": "^3.9.1",
@@ -39,7 +39,7 @@
     "magnific-popup": "~1.1.0",
     "normalize.css": "^4.1.1",
     "nprogress": "^0.2.0",
-    "postcss-assets": "^4.0.1",
+    "postcss-assets": "^4.1.0",
     "postcss-brand-colors": "^0.4.0",
     "postcss-center": "^1.0.0",
     "postcss-csso": "^1.1.1",
