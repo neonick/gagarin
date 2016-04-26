@@ -7,19 +7,17 @@ I use [Lost Grid System](https://github.com/corysimmons/lost) for easy handling 
 
 **Poyekhali!**
 
-## Installation and run
+## Installation and tasks
 
 ```
-npm install && gulp
+npm install
 ```
-
-## Task
 
 ```
 gulp — for watching and development
 gulp build — for ready to pruduction build
 ```
- 
+
 ## Used vendor plugins
 
 - [Lost Grid System](https://github.com/corysimmons/lost) for grids
@@ -28,7 +26,7 @@ gulp build — for ready to pruduction build
 - [Tabslet](https://github.com/vdw/Tabslet) for tabs
 - [jquery.maskedinput](https://github.com/digitalBush/jquery.maskedinput) for input masks
 - [ion.rangeSlider](https://github.com/IonDen/ion.rangeSlider) for range slider
-- [Fotorama](https://github.com/artpolikarpov/fotorama/) for Fotorama
+- [Fotorama](https://github.com/artpolikarpov/fotorama/) for fotorama
 
 ## Next releases
 
