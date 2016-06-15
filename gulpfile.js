@@ -26,6 +26,7 @@ var gulp = require('gulp'),
     postcssfocus = require('postcss-focus'),
     brandcolors = require('postcss-brand-colors'),
     fontmagician = require('postcss-font-magician'),
+    flexfix = require('postcss-flexbugs-fixes'),
     pkg = require('./package.json'),
     reload = browserSync.reload;
 
@@ -135,6 +136,7 @@ gulp.task('watch:css', function () {
             postcssCenter,
             postcssfocus,
             easings,
+            flexfix,
             autoprefixer({ browsers: ['last 2 versions'] }),
             mqpacker
         ]))
@@ -164,6 +166,7 @@ gulp.task('build:css', function () {
             postcssCenter,
             postcssfocus,
             easings,
+            flexfix,
             autoprefixer({ browsers: ['last 2 versions'] }),
             mqpacker,
             csso
