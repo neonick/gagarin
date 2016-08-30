@@ -12,9 +12,9 @@
 /*
 * Parts
 */
+@import "parts/variables";
 @import "parts/reset";
 @import "parts/fonts";
-@import "parts/variables";
 @import "parts/common";
 @import "test"; /* remove on prod */
 
